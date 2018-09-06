@@ -1,0 +1,99 @@
+.main-title {
+    font-size: 60px;
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Anton', sans-serif;
+    margin-top: 60px 0;
+    color: #9220A4;
+}
+
+.story{
+    border: 1px solid #333;
+    padding: 5px;
+}
+
+.row {
+    display: flex;
+    align-items: stretch;
+}
+
+.story-title{
+    font-weight: normal;
+    font-style: italic;
+    font-size: 30px;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.story-text {
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+.story-image {
+    width: 100%;
+}
+
+.mini {
+    /* width: 25%; */
+    flex: 1;
+}
+
+.half {
+    /* width: 50%; */
+    flex: 2;
+}
+
+.three-quarters {
+    /* width: 75%; */
+    flex: 3;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    list-style: none; /*gets rid of bullets*/
+}
+
+.nav-item {
+    width: 100%;
+    flex: 1; /*take up as much space as can*/
+    display: flex;
+    align-items: center; /*will center each box vertically */
+    padding-left: 25px;
+    font-size: 30px;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.nav-item a{
+    text-decoration: none; /*you put none bc links have default underline so remove it first and must specificallly be styling anchor tag*/
+    color: #333;
+}
+
+.nav-item a:hover {
+    text-decoration: underline;
+}
+
+.child-1 {
+    background-color: #F75D76;
+}
+
+.child-2 {
+    background-color: #ffeaa7;
+}
+
+.child-3 {
+    background-color: #16C875;
+}
+
+.child-4 {
+    background-color: #74b9ff;
+}
+
+.child-5 {
+    background-color: #a29bfe;
+}
